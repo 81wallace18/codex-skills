@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-11-10",
+  "description": "Installed skill snapshots; reference upstream revisions are documented in PROVENANCE.md, not asserted as installed revisions.",
+  "skills": [
+    {
+      "name": "coding-guidelines",
+      "installation": "~/.codex/skills/coding-guidelines"
+    },
+    {
+      "name": "codenavi",
+      "installation": "~/.codex/skills/codenavi"
+    },
+    {
+      "name": "tlc-spec-driven",
+      "installation": "~/.codex/skills/tlc-spec-driven"
+    },
+    {
+      "name": "security-review",
+      "installation": "~/.codex/skills/security-review"
+    },
+    {
+      "name": "commit-push",
+      "installation": "~/.codex/skills/commit-push"
+    },
+    {
+      "name": "whatsapp-reader",
+      "installation": "~/.codex/skills/whatsapp-reader"
+    },
+    {
+      "name": "playwright-cli",
+      "installation": "~/.agents/skills/playwright-cli"
+    }
+  ],
+  "files": [
+    {
+      "path": "skills/coding-guidelines/SKILL.md",
+      "sha256": "aa5f4fd43152ace53e8f93a5f7eac203319cb24c4e576604faf46910928fce7d",
+      "executable": false
+    },
+    {
+      "path": "skills/coding-guidelines/references/superpowers-mit-license.txt",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "executable": false
+    },
+    {
+      "path": "skills/coding-guidelines/references/testing.md",
+      "sha256": "60667f77119cc6fd5809a04ba111c272b5d871293f7d7d1636681a38c8251410",
+      "executable": false
+    },
+    {
+      "path": "skills/codenavi/SKILL.md",
+      "sha256": "503d33067de9b9db51c5cf1ef46f60ba07573695b0f22c7285841bace16bdb03",
+      "executable": false
+    },
+    {
+      "path": "skills/codenavi/references/coding-principles.md",
+      "sha256": "ed0b6837920dd903e0c41337b37d911481414323bc05264bb43276db9127bb00",
+      "executable": false
+    },
+    {
+      "path": "skills/codenavi/references/notebook-spec.md",
+      "sha256": "1fd59f134342b3106990c6a1709be0b19270fa7964d36eb80c592d449e08b62a",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/SKILL.md",
+      "sha256": "89e0feb681966d6f9253dca66382f44d5d0f457822e5f8e5104a55043aa4e28f",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/code-analysis.md",
+      "sha256": "38b571c81d98e390b9ac8947563ad19a33843db425d4ff94ad73db70a054f828",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/coding-principles.md",
+      "sha256": "cd5ad5039329e5511bf749a7f4361f5543b559c095e813a5182ad9dc85e677a7",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/context-limits.md",
+      "sha256": "bff0c86980d41897b70216fa18b6a05a0c9d74a0e80940939fc0f314a55da482",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/design.md",
+      "sha256": "a8fb6316eb6f3e812433077c4a02865e7525cb5227d70d080af7bad55c2b7d05",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/discuss.md",
+      "sha256": "fc77d6244161086fbbc20b0b260c41e79c10f6239509a8d2f953ad3c1101045c",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/implement.md",
+      "sha256": "6a5f03727564c364c80b504be8d00f6021f4d0670e4aca80edf233652b4a56bc",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/lessons.md",
+      "sha256": "a2cd6ef9592c25919410138596f8d2e4ddd1f3c8f6f97adb48d5460dd03d10e9",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/lightweight-execution.md",
+      "sha256": "e554d1f99e9de5a3433a378e564fc79f7912c72aded9d3b6a1e0e81735cca955",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/memory.md",
+      "sha256": "7cc1f600747ed201c19547981044676c24bef57bf0e95420e3cde15558979fa1",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/specify.md",
+      "sha256": "907527b80a5dcf3d133eef33adf4cbe0d5737cf15d130c28d685acc8893e0bc2",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/sub-agents.md",
+      "sha256": "630520d5fa1c577cce9cad96bc975677bb4aea3f72ed8648aca11c26b4e18417",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/tasks.md",
+      "sha256": "9fd1dab7c4c59108c1a674d465f1d78fddc18c8bf2681ccb192515d2601828e4",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/references/validate.md",
+      "sha256": "b4b8e0d8d69190a1e5f9eebb06fa427cbb5ce73857b1f86c7cbeb992c274b2d7",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/scripts/check_commit.py",
+      "sha256": "20a0fc0f8423b958ea7bae5eec9286d47e8593c157d87fd9d92c2f17a1464567",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/scripts/lessons.py",
+      "sha256": "258cdb508d9787aee1a840bf811e13637c52ef0dd76273b08fab8c19ebac9b09",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/scripts/validate_spec.py",
+      "sha256": "2a0b7e334d026f9556c665fbd0386cfa5b17c62a5e921fed52a9422bc27bc006",
+      "executable": false
+    },
+    {
+      "path": "skills/tlc-spec-driven/scripts/validate_state.py",
+      "sha256": "029a833ab675662fab13917537042357a21f5271480c58efd949f22f80a4fa92",
+      "executable": true
+    },
+    {
+      "path": "skills/tlc-spec-driven/scripts/validate_tasks.py",
+      "sha256": "9be3a4d8e0e925cb3bceaa053500e9c89702977b538779585679fa6b01de8f2e",
+      "executable": true
+    },
+    {
+      "path": "skills/security-review/SKILL.md",
+      "sha256": "c21b601fbc6560ea4abd19c5a6cf5ad716b58b3cda1c8fa698628d9f011d6ebf",
+      "executable": false
+    },
+    {
+      "path": "skills/commit-push/SKILL.md",
+      "sha256": "55e0de9e5a8be2547a69f91c18bbb61301b2a98f1b28148005fa70d2a984cd41",
+      "executable": false
+    },
+    {
+      "path": "skills/whatsapp-reader/SKILL.md",
+      "sha256": "53c979d15d8437a1ddcda4b9719e31871c56ad7c5ccd0f41871656192213b8d9",
+      "executable": false
+    },
+    {
+      "path": "skills/whatsapp-reader/agents/openai.yaml",
+      "sha256": "a664f240cbc1d6de053a4132a5ef16a13818635172c32a083236d389f31b7e6f",
+      "executable": false
+    },
+    {
+      "path": "skills/playwright-cli/SKILL.md",
+      "sha256": "3fec7ab2334bd5f45ad8831feba46ebd78d14279bfb71e9e984db11e06adb3a5",
+      "executable": false
+    },
+    {
+      "path": "skills/playwright-cli/references/element-attributes.md",
+      "sha256": "bf19aa4671e0a50a0fefa9c790f39124e803060eefe395042b723c29fcb7faa2",
+      "executable": false
+    },
+    {
+      "path": "skills/playwright-cli/references/playwright-tests.md",
+      "sha256": "d770e9eb15cf1e266b9d92e788722fa189941f89346702a6800b06e25416c4e7",
+      "executable": false
+    },
+    {
+      "path": "skills/playwright-cli/references/request-mocking.md",
+      "sha256": "54e801c9663fc2b6d68ceb058cb1c360724c2499f42acc7852a68e83e5b5f37c",
+      "executable": false
+    },
+    {
+      "path": "skills/playwright-cli/references/running-code.md",
+      "sha256": "0729425a05ee7f16510dae80f1e18041fef53041f1d15cfb2f77a3b30b648244",
+      "executable": false
+    },
+    {
+      "path": "skills/playwright-cli/references/session-management.md",
+      "sha256": "5b766d41614b3201f845b9b99b51df8c6cedc79850b541db1eaaeafb289bf0b3",
+      "executable": false
+    },
+    {
+      "path": "skills/playwright-cli/references/storage-state.md",
+      "sha256": "1122778c9b13b44bddebb4476a7f99d918afd31757be8b4fade3cb09c3d48c99",
+      "executable": false
+    },
+    {
+      "path": "skills/playwright-cli/references/test-generation.md",
+      "sha256": "f08d14388b7002963e27bd242550154cb1379def89597464deb36b6f7afca15f",
+      "executable": false
+    },
+    {
+      "path": "skills/playwright-cli/references/tracing.md",
+      "sha256": "792e0ac7705e56ac48df84c0f5400221ce86107897c671590a64a4ea6a82508e",
+      "executable": false
+    },
+    {
+      "path": "skills/playwright-cli/references/video-recording.md",
+      "sha256": "0cea7708999aa663701917615889a84cbc05200718bb161de9a5366a826c2b4d",
+      "executable": false
+    }
+  ]
+}
