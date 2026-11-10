@@ -24,7 +24,8 @@ files when present. See [provenance and credits](PROVENANCE.md) for upstream
 links, customization notes, and licensing boundaries. The
 [snapshot manifest](snapshot.json) records SHA-256 hashes for the 39 imported
 files; it excludes repository documentation and the separately retrieved
-upstream license notices.
+upstream license notices, as well as the local license files added after the
+initial snapshot.
 
 ## Use a skill
 
@@ -74,6 +75,23 @@ Only the seven listed skills are included. The WhatsApp sender, memory-derived
 procedures, other installed skills, Codex configuration, histories, messages,
 media, secrets, installer metadata, and generated caches are excluded.
 
-Imported skill files are preserved byte-for-byte. No blanket license is applied
-to this mixed-origin collection; retain the notices and follow the per-source
-terms described in [PROVENANCE.md](PROVENANCE.md).
+Imported skill files are preserved byte-for-byte. Export-added license files do
+not change their instructions or runtime behavior.
+
+## Licensing
+
+The following locally maintained skill packages are MIT licensed, with
+`Copyright (c) 2026 Wallace Patrick`:
+
+- [security-review](skills/security-review/LICENSE)
+- [commit-push](skills/commit-push/LICENSE)
+- [whatsapp-reader](skills/whatsapp-reader/LICENSE)
+
+Each license is included inside its skill directory so it travels with a copied
+installation. The WhatsApp license covers this skill's instructions and UI
+metadata, not WAHA, MCP implementations, ASR models, or other dependencies.
+
+There is no single blanket license for this mixed-origin collection. The other
+skills retain their upstream licenses and credits. Follow the per-source terms
+in [PROVENANCE.md](PROVENANCE.md); the MIT grants above do not relicense
+third-party material.

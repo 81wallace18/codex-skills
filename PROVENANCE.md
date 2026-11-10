@@ -56,11 +56,15 @@ browsers, user profiles, or Microsoft services.
 
 | Skill | What is established | Source references |
 | --- | --- | --- |
-| `security-review` | Local installed review workflow. No original third-party repository or license could be established from the exported file; no external authorship is asserted. | The installed `SKILL.md` is the source of this snapshot. |
-| `commit-push` | Local installed Git workflow. No original third-party repository or license could be established from the exported file; no external authorship is asserted. | [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) describes the referenced commit convention, not the origin of this skill. |
-| `whatsapp-reader` | Locally maintained instructions for the existing WAHA and local media/transcription setup. This is not a WAHA-distributed skill. | [WAHA native MCP](https://waha.devlike.pro/docs/apps/mcp/), [chat operations](https://waha.devlike.pro/docs/how-to/chats/), and [GOWS engine](https://waha.devlike.pro/docs/engines/gows/). These are dependency documentation, not a claim of copied implementation. |
+| `security-review` | Local review workflow, published under [MIT](skills/security-review/LICENSE) at the user's direction. No original third-party source was established during the initial export. | The installed `SKILL.md` is the source of this snapshot. |
+| `commit-push` | Local Git workflow, published under [MIT](skills/commit-push/LICENSE) at the user's direction. No original third-party source was established during the initial export. | [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) describes the referenced commit convention, not the origin of this skill. |
+| `whatsapp-reader` | Locally maintained instructions and UI metadata, published under [MIT](skills/whatsapp-reader/LICENSE) at the user's direction. This is not a WAHA-distributed skill. | [WAHA native MCP](https://waha.devlike.pro/docs/apps/mcp/), [chat operations](https://waha.devlike.pro/docs/how-to/chats/), and [GOWS engine](https://waha.devlike.pro/docs/engines/gows/). These are dependency documentation, not a claim of copied implementation. |
 
-No repository-wide license is assigned to these locally maintained materials by
-this publication. Do not infer a reuse license for unattributed material from
-the licenses of neighboring third-party files. This export preserves available
-provenance; it does not certify complete authorship or legal provenance.
+On November 10, 2026, the user authorized MIT licensing of these three skill
+packages with `Copyright (c) 2026 Wallace Patrick`. Each package contains the
+complete license text. This records the user's licensing direction; it is not
+an independent audit of the full authorship history.
+
+The grants apply only to these three packages. They do not cover external
+dependencies or replace the licenses and credits of neighboring third-party
+skills. No single repository-wide license is assigned to the mixed collection.
