@@ -1,0 +1,4 @@
+interface:
+  display_name: "WhatsApp Reader"
+  short_description: "Read, download, or transcribe exact WhatsApp messages"
+  default_prompt: "Use $whatsapp-reader to read or transcribe one exact WhatsApp message without sending or marking it read."
